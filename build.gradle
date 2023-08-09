@@ -48,9 +48,9 @@ dependencies {
 //    implementation 'io.springfox:springfox-swagger-ui:3.0.0'
 
 
-    // security (기능구현 완료 전까지 별도사용)
-//    implementation 'org.springframework.boot:spring-boot-starter-security'
-//    testImplementation 'org.springframework.security:spring-security-test'
+//     security (기능구현 완료 전까지 별도사용)
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    testImplementation 'org.springframework.security:spring-security-test'
 }
 
 tasks.named('test') {
